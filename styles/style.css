@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(116, 252, 206);
+    
+
+}
+.main-container {
+    background-color: rgb(236, 235, 235);
+    width: 80vw;
+    height: 80vh;
+    text-align: right;
+    padding: 40px 40px 0 0; 
+    font-size: 20px;
+    border-radius: 12px;
+}
+.name-email-container {
+
+}
+.address-container {
+
+}
+.date-time-paint-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.date-time-paint-container div {
+    margin-left: 50px;
+}
+
+.comment-submit-container {
+
+}
+input {
+    border: 1px solid rgb(187, 178, 178);
+    border-radius: 5px;
+    padding: 10px 0 10px 10px;
+}
+textarea {
+    border: 1px solid rgb(187, 178, 178);
+    border-radius: 5px;
+}

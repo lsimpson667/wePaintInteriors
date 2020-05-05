@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WePaintInteriors</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+<body>
+    <h1>WePaintInteriors - the interior painting pros</h1>
+    <p>We're excited to paint your room or office! Please fill out the form below to receive a quote:</p>
+    <div class="main-container">    
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+            <div class="name-email-container">
+                <label for="firstName">First name:</label>
+                <input type="text" id="firstName" name="firstName" size="150" placeholder="Richard">
+                <br>
+                <br>
+                <label for="lastName">Last name:</label>
+                <input type="text" id="lastName" name="lastName" size="150" placeholder="Hendricks">
+                <br>
+                <br>
+                <label for="email">email:</label>
+                <input type="text" id="email" name="email" size="150" placeholder="richard@piedpiper.com">
+            </div>
+                <br>
+           
+            <div class="address-container">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" size="68.9" placeholder="Number and street">
+                <input type="text" id="city" name="city" placeholder="city">
+                <input type="text" id="state" name="state" placeholder="State">
+                <input type="text" id="zipcode" name="zipcode" placeholder="zip code">
+            </div>   
+            <br>  
+
+            <div class="date-time-paint-container">
+                <div class="start-date-label">
+                    <label for="startdate">Desired <br>start:</label>
+                </div>
+                <div>
+                    <input type="date" id="startdate" name="startdate">
+                </div>
+                <div>
+                    <label for="time">Time:</label>
+                </div>
+                <div>
+                    <input type="time" id="time" name="time">
+                </div>
+                <div> 
+                    <label for="paintcolor">Desired Paint <br>Color:</label>
+                </div>
+                <div>              
+                    <input type="color" id="paintcolor" name="paintcolor">
+                </div>
+            </div>
+            <br>
+
+            <div class="comment-submit-container">                
+                <label for="comments">Comments:</label>
+                <textarea rows="10" cols="135"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
